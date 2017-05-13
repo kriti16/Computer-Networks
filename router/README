@@ -1,0 +1,8 @@
+Design Decisions:
+1) Helper function for longest_prefix_match used for better undestanding. Bitwise and(&) of gateway and netmask and query ip and netmask
+used to find the longest match.
+2) Handled the case for ping to wrong IP and traceroute to wrong IP as well.  
+3) Proper error handling at each step (ttl check etc).
+4) Case for ARP Request sent more than 5 times handled.
+
+Overall, all the cases and a few more properly handled and tested.
