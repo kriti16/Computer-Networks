@@ -1,0 +1,4 @@
+Use following commands in given order:
+make
+./server 9090
+./client 127.0.0.1 9090 
